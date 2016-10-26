@@ -1,0 +1,26 @@
+{
+  "name": "assoc-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "graphql": "^0.7.2",
+    "graphql-relay": "^0.4.3",
+    "graphql-sequelize": "^4.0.1",
+    "mysql": "^2.11.1",
+    "sequelize": "^3.24.6"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  }
+}
